@@ -1,0 +1,4 @@
+method,n_normal,any_fp_rate,fp_rate_gt_0_5_percent,fp_rate_gt_1_percent,fp_rate_gt_2_percent,mean_pred_area,median_pred_area,mean_pred_area_ratio
+Adaptive Threshold + Morphology,20,1.0,0.5,0.2,0.05,508.6,333.0,0.0077606201171875
+Chan-Vese,20,0.95,0.3,0.15,0.05,352.6,234.0,0.0053802490234375
+Otsu + Morphology,20,0.95,0.45,0.25,0.05,537.15,309.5,0.008196258544921875

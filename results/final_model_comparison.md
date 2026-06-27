@@ -1,0 +1,7 @@
+| model                     | task                          |   threshold |   test_lesion_dice |   test_lesion_iou |   test_lesion_precision |   test_lesion_recall |   classification_accuracy |   classification_f1_macro |
+|:--------------------------|:------------------------------|------------:|-------------------:|------------------:|------------------------:|---------------------:|--------------------------:|--------------------------:|
+| Otsu + Morphology         | Classical segmentation        |      nan    |             0.1584 |            0.1255 |                  0.2372 |               0.172  |                    nan    |                    nan    |
+| U-Net Baseline            | Segmentation                  |        0.5  |             0.7711 |            0.6866 |                  0.8023 |               0.7908 |                    nan    |                    nan    |
+| U-Net Baseline            | Segmentation                  |        0.75 |             0.7622 |            0.6799 |                  0.8329 |               0.7389 |                    nan    |                    nan    |
+| MultiTask Attention U-Net | Segmentation + Classification |        0.5  |             0.7389 |            0.6484 |                  0.8026 |               0.7351 |                      0.76 |                      0.75 |
+| MultiTask Attention U-Net | Segmentation + Classification |        0.75 |             0.6973 |            0.6088 |                  0.8449 |               0.6511 |                      0.76 |                      0.75 |

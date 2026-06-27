@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Data - do not push raw or generated dataset files
+data/BUSI_raw/
+data/Dataset_BUSI_with_GT/
+data/processed_masks/
+data/*.zip
+data/*.rar
+data/*.7z
+data/busi_index.csv
+data/train.csv
+data/val.csv
+data/test.csv
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Large generated files
+*.h5
+*.onnx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env

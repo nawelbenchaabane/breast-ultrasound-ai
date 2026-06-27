@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+albumentations
+segmentation-models-pytorch
+torchmetrics
+scikit-image
+tqdm
+streamlit
+Pillow
+tabulate

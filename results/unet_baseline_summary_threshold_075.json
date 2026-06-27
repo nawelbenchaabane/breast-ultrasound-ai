@@ -1,0 +1,86 @@
+{
+    "model": "UNetBaseline",
+    "checkpoint": "/content/drive/MyDrive/breast-ultrasound-ai/checkpoints/best_unet_baseline.pth",
+    "best_epoch": 9,
+    "threshold": 0.75,
+    "validation": {
+        "overall": {
+            "dice": 0.7034043546088375,
+            "iou": 0.6246031106055572,
+            "precision": 0.7762257222673449,
+            "recall": 0.7071993555508118
+        },
+        "by_class": {
+            "benign": {
+                "dice": 0.7371,
+                "iou": 0.6549,
+                "precision": 0.7922,
+                "recall": 0.7576
+            },
+            "malignant": {
+                "dice": 0.6684,
+                "iou": 0.5472,
+                "precision": 0.8227,
+                "recall": 0.6406
+            },
+            "normal": {
+                "dice": 0.65,
+                "iou": 0.65,
+                "precision": 0.65,
+                "recall": 0.65
+            }
+        },
+        "lesion_only": {
+            "dice": 0.7144155613849709,
+            "iou": 0.6193666382057564,
+            "precision": 0.8022516440246136,
+            "recall": 0.7189930371076804
+        },
+        "normal_analysis": {
+            "n_normal_images": 20,
+            "false_positive_rate": 0.35,
+            "mean_predicted_area": 339.45,
+            "median_predicted_area": 0.0
+        }
+    },
+    "test": {
+        "overall": {
+            "dice": 0.768688121312319,
+            "iou": 0.7004059329999694,
+            "precision": 0.8273129560552818,
+            "recall": 0.7493440416404584
+        },
+        "by_class": {
+            "benign": {
+                "dice": 0.7839,
+                "iou": 0.7076,
+                "precision": 0.8336,
+                "recall": 0.7842
+            },
+            "malignant": {
+                "dice": 0.7162,
+                "iou": 0.6209,
+                "precision": 0.8315,
+                "recall": 0.6424
+            },
+            "normal": {
+                "dice": 0.8,
+                "iou": 0.8,
+                "precision": 0.8,
+                "recall": 0.8
+            }
+        },
+        "lesion_only": {
+            "dice": 0.762232063729619,
+            "iou": 0.679871073703383,
+            "precision": 0.8329444932649452,
+            "recall": 0.7388995141436457
+        },
+        "normal_analysis": {
+            "n_normal_images": 20,
+            "false_positive_rate": 0.2,
+            "mean_predicted_area": 184.65,
+            "median_predicted_area": 0.0
+        }
+    }
+}
